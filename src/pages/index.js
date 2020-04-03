@@ -22,11 +22,37 @@ class Homepage extends React.Component {
                 </h2>
               </header>
               <p>
-                Blah blah blah a commodo ante nunc accumsan et interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis sed volutpat
-                aclacus nascetur ac non. Lorem curae et ante amet sapien sed
-                tempus adipiscing id accumsan.
+                We are going to compile a cool video of all your loving
+                well-wishes.
               </p>
+              <p> There are 3 ways to share:</p>
+              <ol>
+                <li>
+                  Text to Josh at{" "}
+                  <a href="sms:1-510-725-8602‬">(five-one-zero)-725-8602</a>
+                </li>
+                <li>
+                  Email to{" "}
+                  <a
+                    href="mailto:name[at]whatever.com?Subject=Live%20Oak%20Love"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    name[at]whatever.com
+                  </a>
+                </li>
+                <li>
+                  Send via{" "}
+                  <a
+                    href="https://wetransfer.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WeTransfer
+                  </a>{" "}
+                  to name[at]whatever.com.
+                </li>{" "}
+              </ol>
             </div>
             <div className="col-6">
               <span className="image fit">
@@ -52,12 +78,19 @@ class Homepage extends React.Component {
                 <a
                   href="https://venmo.com/live-oak-love"
                   className="button special"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Venmo 💵
                 </a>
               </li>
               <li>
-                <a href="https://venmo.com/live-oak-love" className="">
+                <a
+                  href="https://venmo.com/live-oak-love"
+                  className=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   @live-oak-love
                 </a>
               </li>
