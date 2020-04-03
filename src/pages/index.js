@@ -4,9 +4,6 @@ import Helmet from "react-helmet";
 import Layout from "../components/layout";
 
 import pic01 from "../assets/images/pic01.jpg";
-import pic02 from "../assets/images/pic02.jpg";
-import pic03 from "../assets/images/pic03.jpg";
-import pic04 from "../assets/images/pic04.jpg";
 
 class Homepage extends React.Component {
   render() {
@@ -16,18 +13,17 @@ class Homepage extends React.Component {
       <Layout>
         <Helmet title={siteTitle} />
 
-        <section id="one" className="main style1">
+        <section id="video" className="main style1">
           <div className="grid-wrapper">
             <div className="col-6">
               <header className="major">
                 <h2>
-                  Lorem ipsum dolor adipiscing
-                  <br />
-                  amet dolor consequat
+                  Share your love with
+                  <br />a special video message.
                 </h2>
               </header>
               <p>
-                Adipiscing a commodo ante nunc accumsan et interdum mi ante
+                Blah blah blah a commodo ante nunc accumsan et interdum mi ante
                 adipiscing. A nunc lobortis non nisl amet vis sed volutpat
                 aclacus nascetur ac non. Lorem curae et ante amet sapien sed
                 tempus adipiscing id accumsan.
@@ -41,7 +37,28 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="two" className="main style2">
+        <section id="donate" className="main style2 special">
+          <div className="container">
+            <header className="major">
+              <h2>Ipsum feugiat consequat?</h2>
+            </header>
+            <p>Sed lacus nascetur ac ante amet sapien.</p>
+            <ul className="actions uniform">
+              <li>
+                <a href="#" className="button special">
+                  Sign Up
+                </a>
+              </li>
+              <li>
+                <a href="#" className="button">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        {/*
+        <section id="donate" className="main style2">
           <div className="grid-wrapper">
             <div className="col-6">
               <ul className="major-icons">
@@ -96,9 +113,9 @@ class Homepage extends React.Component {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="three" className="main style1 special">
+        {/* <section id="three" className="main style1 special">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
@@ -182,7 +199,7 @@ class Homepage extends React.Component {
               </li>
             </ul>
           </div>
-        </section>
+        </section> */}
       </Layout>
     );
   }

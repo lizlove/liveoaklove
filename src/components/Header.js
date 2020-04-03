@@ -24,13 +24,13 @@ class Header extends React.Component {
           </p>
           <ul className="actions">
             <li>
-              <a href="#one" className="button scrolly">
-                Video 📹
+              <a href="#video" className="button scrolly">
+                📹 Share a Video
               </a>
             </li>
             <li>
-              <a href="#two" className="button scrolly">
-                Donate 💰
+              <a href="#donate" className="button scrolly">
+                Give a Gift 💰
               </a>
             </li>
           </ul>
