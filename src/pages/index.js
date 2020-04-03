@@ -40,16 +40,19 @@ class Homepage extends React.Component {
         <section id="scrilla" className="main style2 special">
           <div className="container">
             <header className="major">
-              <h2>Ipsum feugiat consequat?</h2>
+              <h2>A Taste of Money, Honey?</h2>
             </header>
             <p>
               Since we cannot be present to make a present, you can still give a
-              gift!
+              cash gift!
             </p>
             <ul className="actions uniform">
               <li>
-                <a href="#" className="button special">
-                  Sign Up
+                <a
+                  href="https://venmo.com/live-oak-love"
+                  className="button special"
+                >
+                  Venmo 💵
                 </a>
               </li>
               <li>
