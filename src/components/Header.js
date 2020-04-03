@@ -29,7 +29,7 @@ class Header extends React.Component {
               </a>
             </li>
             <li>
-              <a href="#donate" className="button scrolly">
+              <a href="#scrilla" className="button scrolly">
                 Give a Gift 💰
               </a>
             </li>

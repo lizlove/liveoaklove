@@ -37,12 +37,15 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="donate" className="main style2 special">
+        <section id="scrilla" className="main style2 special">
           <div className="container">
             <header className="major">
               <h2>Ipsum feugiat consequat?</h2>
             </header>
-            <p>Sed lacus nascetur ac ante amet sapien.</p>
+            <p>
+              Since we cannot be present to make a present, you can still give a
+              gift!
+            </p>
             <ul className="actions uniform">
               <li>
                 <a href="#" className="button special">
