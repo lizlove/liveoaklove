@@ -18,8 +18,7 @@ class Homepage extends React.Component {
             <div className="col-6">
               <header className="major">
                 <h2>
-                  Share your love with
-                  <br />a special video message.
+                  Share your love with <br />a special video message.
                 </h2>
               </header>
               <p>
@@ -44,7 +43,9 @@ class Homepage extends React.Component {
             </header>
             <p>
               Since we cannot be present to make a present, you can still give a
-              cash gift!
+              cash gift! Venmo info is below. <br />
+              Please note that while the name on Venmo is Amelia B, all moneys
+              will go to Megan and Denise.
             </p>
             <ul className="actions uniform">
               <li>
@@ -56,8 +57,8 @@ class Homepage extends React.Component {
                 </a>
               </li>
               <li>
-                <a href="#" className="button">
-                  Learn More
+                <a href="https://venmo.com/live-oak-love" className="">
+                  @live-oak-love
                 </a>
               </li>
             </ul>

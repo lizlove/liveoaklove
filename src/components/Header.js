@@ -9,9 +9,7 @@ class Header extends React.Component {
           <h1>
             Oh, hello.
             <br />
-            It seems you are another fine
-            <br />
-            friend of{" "}
+            It seems you are another fine <br /> friend of{" "}
             <a href="http://www.pistilandstamenflowers.com/">
               Megan and Denise
             </a>
