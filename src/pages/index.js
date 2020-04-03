@@ -56,7 +56,19 @@ class Homepage extends React.Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic01} alt="" />
+                <iframe
+                  src="https://giphy.com/embed/Tqp5YCaYh9Anm"
+                  width="480"
+                  height="365"
+                  frameBorder="0"
+                  class="giphy-embed"
+                  allowFullScreen
+                ></iframe>
+                <p>
+                  <a href="https://giphy.com/gifs/prince-symbol-Tqp5YCaYh9Anm">
+                    via GIPHY
+                  </a>
+                </p>
               </span>
             </div>
           </div>
