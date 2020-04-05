@@ -12,7 +12,4 @@ Run `gatsby develop` in the terminal to start.
 
 1. Change header and footer color gradient
 2. Change gradient in money section
-3. Incorportate logo where heart is on header.
-4. Put in real email in how to section
-5. Add a proper video in the video section?
-6. Add VIMEO dev API keys to get video in.
+3. Incorporate logo where heart is on header.

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/cropMD-white.png";
 
 class Header extends React.Component {
   render() {
@@ -6,29 +7,29 @@ class Header extends React.Component {
       <section id="header">
         <div className="inner">
           <span className="icon major fa-heart"></span>
-          <h1>
-            Oh, hello.
-            <br />
-            It seems you are another fine <br /> friend of{" "}
-            <a href="http://www.pistilandstamenflowers.com/">
-              Megan and Denise
-            </a>
-            .
-          </h1>
+          <img className="logo" src={logo}></img>
+          <h1>Hello friends</h1>
           <p>
-            While we cannot celebrate live oak love together in NOLA,
+            Although we can't celebrate Denise + Megan's <em>Live Oak Love</em>{" "}
+            together in NOLA,
             <br />
             we can still come together to gather gifts and good wishes.
           </p>
           <ul className="actions">
             <li>
               <a href="#video" className="button scrolly">
-                📹 Share a Video
+                <span role="img" aria-label="videocamera">
+                  📹
+                </span>{" "}
+                Share a Video
               </a>
             </li>
             <li>
               <a href="#scrilla" className="button scrolly">
-                Give a Gift 💰
+                Give a Gift{" "}
+                <span role="img" aria-label="moneybag">
+                  💰
+                </span>
               </a>
             </li>
           </ul>

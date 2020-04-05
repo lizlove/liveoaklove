@@ -23,7 +23,15 @@ class Footer extends React.Component {
           </li>
         </ul>
         <ul className="copyright">
-          <li>&copy; 2020, Live Oak Love 🌳💛</li>
+          <li>
+            &copy; 2020, Live Oak Love{" "}
+            <span role="img" aria-label="tree">
+              🌳
+            </span>
+            <span role="img" aria-label="yellow heart">
+              💛
+            </span>
+          </li>
           <li>
             Design: <a href="http://elizabethlovero.com">Lenny Bruce</a>
           </li>

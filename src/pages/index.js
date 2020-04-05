@@ -3,8 +3,6 @@ import Helmet from "react-helmet";
 
 import Layout from "../components/layout";
 
-import pic01 from "../assets/images/pic01.jpg";
-
 class Homepage extends React.Component {
   render() {
     const siteTitle = "Live Oak Love";
@@ -17,46 +15,69 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <header className="major">
-                <h2>
-                  Share your love with <br />a special video message.
-                </h2>
+                <h2>Make a Video Card</h2>
               </header>
               <p>
-                We are going to compile a cool video of all your loving
-                well-wishes.
+                We're creating a collective video card for Denise + Megan! Put
+                together, all of our pieces will mimic the silly, lovey vibes of
+                a wedding dance party.
               </p>
-              <p> There are 3 ways to share:</p>
+              <p> Here are the suggested steps for contributing a video:</p>
               <ol>
                 <li>
-                  Text to Josh at{" "}
-                  <a href="sms:1-510-725-8602‬">(five-one-zero)-725-8602</a>
+                  Put on a stylish outfit. (This <em>is</em> a wedding after
+                  all.)
                 </li>
                 <li>
-                  Email to{" "}
-                  <a
-                    href="mailto:name[at]whatever.com?Subject=Live%20Oak%20Love"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    name[at]whatever.com
+                  Turn on{" "}
+                  <a href="https://www.youtube.com/watch?v=3GwjfUFyY6M">
+                    <em>Celebrate</em> by Kool + The Gang
                   </a>
                 </li>
                 <li>
-                  Send via{" "}
-                  <a
-                    href="https://wetransfer.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    WeTransfer
-                  </a>{" "}
-                  to name[at]whatever.com.
-                </li>{" "}
+                  Press <b>record</b> on your phone or laptop camera.
+                </li>
+                <li>
+                  Show off some dance moves and/or say your congratulations to
+                  the brides.
+                </li>
+                <li>
+                  Please send the file to us by <b>April 16.</b> There are
+                  several ways you do it:
+                  <ul>
+                    <li>
+                      Text to{" "}
+                      <a href="sms:1-510-725-8602‬">(five-one-zero)-725-8602</a>
+                    </li>
+                    <li>
+                      Email to{" "}
+                      <a
+                        href="mailto:liveoakloveletters@gmail.com?Subject=Live%20Oak%20Love"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        liveoakloveletters[at]gmail.com
+                      </a>
+                    </li>
+                    <li>
+                      Send via{" "}
+                      <a
+                        href="https://wetransfer.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        WeTransfer
+                      </a>{" "}
+                      to liveoakloveletters[at]gmail.com
+                    </li>{" "}
+                  </ul>
+                </li>
               </ol>
             </div>
             <div className="col-6">
               <span className="image fit">
                 <iframe
+                  title="Prince Gif"
                   src="https://giphy.com/embed/Tqp5YCaYh9Anm"
                   width="480"
                   height="365"
@@ -77,11 +98,12 @@ class Homepage extends React.Component {
         <section id="scrilla" className="main style2 special">
           <div className="container">
             <header className="major">
-              <h2>A Taste of Money, Honey?</h2>
+              <h2>Give a Gift</h2>
             </header>
             <p>
-              Since we cannot be present to make a present, you can still give a
-              cash gift! Venmo info is below. <br />
+              Even though we can't celebrate together, you can still give a
+              present. Venmo info is below.
+              <br />
               Please note that while the name on Venmo is Amelia B, all moneys
               will go to Megan and Denise.
             </p>
@@ -93,7 +115,10 @@ class Homepage extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Venmo 💵
+                  Venmo{" "}
+                  <span role="img" aria-label="money">
+                    💵
+                  </span>
                 </a>
               </li>
               <li>
