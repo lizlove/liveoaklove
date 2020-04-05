@@ -1,9 +1,13 @@
 import React from "react";
+import logo from "../assets/images/cropMD-white.png";
 
 class Footer extends React.Component {
   render() {
     return (
       <section id="footer">
+        <div className="image">
+          <img className="small fit" src={logo}></img>
+        </div>
         <ul className="icons">
           <li>
             <a
@@ -33,7 +37,9 @@ class Footer extends React.Component {
             </span>
           </li>
           <li>
-            Design: <a href="http://elizabethlovero.com">Lenny Bruce</a>
+            <a href="https://www.instagram.com/p/B7Rzw-9lW4E/">
+              Sunday is a good dog.
+            </a>
           </li>
         </ul>
       </section>

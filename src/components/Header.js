@@ -1,17 +1,24 @@
 import React from "react";
-import logo from "../assets/images/cropMD-white.png";
+import dandm from "../assets/images/dandm.png";
 
 class Header extends React.Component {
   render() {
     return (
       <section id="header">
         <div className="inner">
-          <span className="icon major fa-heart"></span>
-          <img className="logo" src={logo}></img>
+          {/* <span className="icon major fa-heart"></span> */}
+          <img className="image icon major" src={dandm}></img>
           <h1>Hello friends</h1>
           <p>
-            Although we can't celebrate Denise + Megan's <em>Live Oak Love</em>{" "}
-            together in NOLA,
+            Although we can't celebrate Denise + Megan's{" "}
+            <a
+              href="http://www.pistilandstamenflowers.com/liveoaklove"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Oak Love
+            </a>{" "}
+            this month,
             <br />
             we can still come together to gather gifts and good wishes.
           </p>
