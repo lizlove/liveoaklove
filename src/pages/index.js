@@ -34,16 +34,15 @@ class Homepage extends React.Component {
                 </li>
                 <li>
                   Press <b>record</b> on your phone or laptop camera. Suggested
-                  video length: 1 minute or less (since there are 100+ people
-                  invited to this *surprise* dance party).
+                  video length: <b>1 minute or less</b>. (There are 100+ people
+                  invited to this *surprise* dance party.)
                 </li>
                 <li>
                   Show off some dance moves and/or say your congratulations to
                   the brides.
                 </li>
                 <li>
-                  Please send the file to us by <b>April 16.</b> There are
-                  several ways you do it:
+                  Please send the video to us by <b>April 16</b>:
                   <ul>
                     <li>
                       Text to{" "}
