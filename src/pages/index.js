@@ -34,7 +34,9 @@ class Homepage extends React.Component {
                   </a>
                 </li>
                 <li>
-                  Press <b>record</b> on your phone or laptop camera.
+                  Press <b>record</b> on your phone or laptop camera. Suggested
+                  video length: 1 minute or less (since there are 100+ people
+                  invited to this *surprise* dance party).
                 </li>
                 <li>
                   Show off some dance moves and/or say your congratulations to
@@ -80,7 +82,7 @@ class Homepage extends React.Component {
                     width: "100%",
                     height: 0,
                     paddingBottom: "76%",
-                    position: "relative"
+                    position: "relative",
                   }}
                 >
                   <iframe
