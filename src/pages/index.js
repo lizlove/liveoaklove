@@ -19,9 +19,9 @@ class Homepage extends React.Component {
               <p>
                 We're creating a collective video card for Denise + Megan! Put
                 together, all of our pieces will mimic the silly, lovey vibes of
-                a wedding dance party.
+                a wedding dance party. Here are the suggested steps for
+                contributing a video:
               </p>
-              <p> Here are the suggested steps for contributing a video:</p>
               <ol>
                 <li>
                   Put on a stylish outfit. (This <em>is</em> a wedding after
@@ -38,8 +38,7 @@ class Homepage extends React.Component {
                 </li>
                 <li>
                   Show off some dance moves and/or say your congratulations to
-                  the brides. Please keep your videos under a minute so we have
-                  time to edit them all together!
+                  the brides.
                 </li>
                 <li>
                   Please send the file to us by <b>April 16.</b> There are

@@ -20,8 +20,7 @@ class Header extends React.Component {
               Live Oak Love
             </a>{" "}
             this month,
-            <br />
-            we can still come together to gather gifts and good wishes.
+            <br /> we can still gather gifts and good wishes.
           </p>
           <p>
             Please <b>don't spill the beans.</b> This is a surprise!
