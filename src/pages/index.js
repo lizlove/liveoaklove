@@ -19,8 +19,7 @@ class Homepage extends React.Component {
               <p>
                 We're creating a collective video card for Denise + Megan! Put
                 together, all of our pieces will mimic the silly, lovey vibes of
-                a wedding dance party. Here are the suggested steps for
-                contributing a video:
+                a wedding dance party. Here's how to contribute:
               </p>
               <ol>
                 <li>
