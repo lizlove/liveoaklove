@@ -2,11 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import Layout from "../components/layout";
-
-import pic02 from "../assets/images/pic02.jpg";
-import pic03 from "../assets/images/pic03.jpg";
-import pic04 from "../assets/images/pic04.jpg";
-
 class Homepage extends React.Component {
   render() {
     const siteTitle = "Live Oak Love";
@@ -80,15 +75,24 @@ class Homepage extends React.Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <iframe
-                  title="Prince Gif"
-                  src="https://giphy.com/embed/Tqp5YCaYh9Anm"
-                  width="480"
-                  height="365"
-                  frameBorder="0"
-                  className="giphy-embed"
-                  allowFullScreen
-                ></iframe>
+                <div
+                  style={{
+                    width: "100%",
+                    height: 0,
+                    paddingBottom: "76%",
+                    position: "relative"
+                  }}
+                >
+                  <iframe
+                    src="https://giphy.com/embed/Tqp5YCaYh9Anm"
+                    width="100%"
+                    height="100%"
+                    style={{ position: "absolute" }}
+                    frameBorder="0"
+                    class="giphy-embed"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </span>
             </div>
           </div>

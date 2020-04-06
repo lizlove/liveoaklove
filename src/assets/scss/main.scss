@@ -1066,8 +1066,16 @@ button,
     width: 100%;
   }
   .image {
-    max-height: 40vh;
+    max-height: 35vh;
+    max-width: 35vw;
   }
+}
+
+.giphy-embed {
+  width: 100%;
+  height: 100%;
+  max-width: 480px;
+  max-height: 365px;
 }
 
 .body.is-loading {
