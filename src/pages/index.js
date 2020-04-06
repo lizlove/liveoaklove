@@ -38,7 +38,8 @@ class Homepage extends React.Component {
                 </li>
                 <li>
                   Show off some dance moves and/or say your congratulations to
-                  the brides.
+                  the brides. Please keep your videos under a minute so we have
+                  time to edit them all together!
                 </li>
                 <li>
                   Please send the file to us by <b>April 16.</b> There are
