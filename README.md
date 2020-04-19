@@ -10,31 +10,4 @@ Run `gatsby develop` in the terminal to start.
 
 ## TODO
 
-1. Change header and footer color gradient
-   footer to #242943
-   header to banner
-   banner {
-   -moz-align-items: center;
-   -webkit-align-items: center;
-   -ms-align-items: center;
-   align-items: center;
-   background-image: url(../../images/banner.jpg);
-   display: -moz-flex;
-   display: -webkit-flex;
-   display: -ms-flex;
-   display: flex;
-   padding: 6em 0 2em 0;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   border-bottom: 0 !important;
-   cursor: default;
-   height: 60vh;
-   margin-bottom: -3.25em;
-   max-height: 32em;
-   min-height: 22em;
-   position: relative;
-   top: -3.25em;}
-2. Change gradient in money section
-3. Incorporate logo where heart is on header.
+1. add video
