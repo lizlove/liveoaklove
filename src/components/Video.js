@@ -2,12 +2,12 @@ import React from "react";
 
 class Video extends React.Component {
   render() {
-    let videoSrcURL = "https://www.youtube.com/embed/yXZfjpH4WSI";
+    console.log("🐶", this.props);
     return (
       <div className="video">
         <iframe
-          src={videoSrcURL}
-          videoTitle="LiveOakLove"
+          src={this.props.videoSrcURL}
+          videoTitle={this.props.videoTitle}
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           frameBorder="0"
           webkitallowfullscreen="true"

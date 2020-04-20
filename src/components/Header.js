@@ -7,7 +7,10 @@ class Header extends React.Component {
       <section id="header">
         <div className="inner">
           <div className="video-container">
-            <Video />
+            <Video
+              videoSrcURL={"https://www.youtube.com/embed/HmtRUJZdLfY"}
+              videoTitle={"LiveOakLove"}
+            />
           </div>
         </div>
       </section>
